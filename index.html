@@ -116,6 +116,10 @@
         width: 100%;
       }
 
+      .cart-text {
+        margin-left: 10px;
+      }
+
       @media (max-width: 600px) {
         .img-container {
           display: none;
@@ -153,6 +157,9 @@
         }
         button {
           margin-top: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     </style>
@@ -175,7 +182,12 @@
               Polge, Perfumer-Creater for the House of CHANEL.
             </p>
             <h1 class="price">$149.99 <span>$169.99</span></h1>
-            <button>Add to Cart</button>
+            <button>
+              <img src="./images/icon-cart.svg" alt="" class="icon-cart" /><span
+                class="cart-text"
+                >Add to Cart</span
+              >
+            </button>
           </div>
         </div>
       </div>
